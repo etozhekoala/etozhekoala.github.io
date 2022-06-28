@@ -12,7 +12,7 @@ div, span, ul, li, a, p, h1, h2, h3, h4, h5, h6 {
 
 .header_margin {
     margin-top: 10px;
-    border-bottom: 4px solid #E4E5EC;
+    border-bottom: 2px solid #E4E5EC;
 }
 
 .container {
@@ -34,7 +34,7 @@ div, span, ul, li, a, p, h1, h2, h3, h4, h5, h6 {
     margin-left: 467px;
     color: #243976;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 20px;
 
 }
