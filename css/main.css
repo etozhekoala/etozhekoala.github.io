@@ -51,23 +51,26 @@ body {
  
 }
 
-.menu {
+.menu-top {
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
-.menu_border-top {
+.menu__border {
     border-top: 2px solid #E4E5EC;
-    margin-top: 19px;
-    padding-top: 15px;
+    margin-top: 23px;
+}
+
+.menu-top_left-menu {
+    display: flex;
+}
+
+.menu__items {
+    list-style-type: none;
 }
 
 .menu__link {
     text-decoration: none;
-    color: #243976;
 }
 
 .menu__img-login:before {
@@ -79,10 +82,18 @@ body {
     display: flex;
 }
 
+.menu__items {
+    margin-right: 30px;
+}
+
 .page {
     margin-top: 45px;
-
+    background-image: url('../img/elt.png');
+    width: 100%;
+    height: auto;
+    padding-bottom: 68px;
 }
+
 
 .page-links {
     width: 420px;
@@ -104,3 +115,62 @@ font-size: 12px;
 .page-links__pink_margin-left {
     margin-left: 15px;
 }
+
+.page-offers__title {
+    color: #243976;
+    font-size: 84px;
+    width: 745px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.page-offers__title-span {
+    font-size: 84px;
+    margin-top: 25px;   
+    color: rgba(73, 179, 247, 1);
+    font-weight: 400;
+}
+
+.page-offers__text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #243976;
+    width: 450px;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.text_bold {
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 37px;
+}
+
+.social {
+    margin-top: 30px;
+    color: #737373;
+    font-size: 17px;
+}
+
+.wrapper-social {
+    display: flex;
+    align-items: center;
+}
+
+.social-left-margin {
+    margin-left: 20px;
+}
+
+.offers-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.offers-img {
+    width: 673px;
+    height: 400px;
+
+}
+
