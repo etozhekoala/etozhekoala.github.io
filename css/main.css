@@ -1,59 +1,106 @@
 body {
     font-family: 'Gotham Pro', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    margin: 0 auto;
-    padding: 0;
+    font-size: 17px;
 }
 
-div, span, ul, li, a, p, h1, h2, h3, h4, h5, h6 {
-    box-sizing: border-box;
-}
-
-.header_margin {
-    margin-top: 10px;
-    border-bottom: 2px solid #E4E5EC;
+.header {
+    background: linear-gradient(180deg, #FFFFFF 0%, #EEF1FD 100%);
 }
 
 .container {
     width: 1140px;
     margin: 0 auto;
 }
-
-.header__logo_size {
-    width: 236px;
+ 
+.wrapper {
+    display: flex;
+    justify-content: space-between;
 }
 
-.container__wrapper {
-    display: flex;
-    text-align: center;
+.wrapper_header-wrapper {
     align-items: center;
 }
 
-.header__phone_location {
-    margin-left: 467px;
-    color: #243976;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-
+.top-nav__logo {
+    width: 236px;
 }
 
-.header__button-learn_location {
-    margin-left: 29px;
-    color: #fff;
-    margin: 23px 31px;
+.top-nav__info {
+    align-items: center;
+}
+
+.top-nav__phone {
     text-decoration: none;
+    color: #243976;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 29px;
+}
+
+.top-nav__learn {
+    text-decoration: none;
+    padding: 23px 31px;
     background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
-box-shadow: 0px 6px 21px rgba(104, 130, 245, 0.67);
-border-radius: 90px;
-    padding: 31px 23px;
+    box-shadow: 0px 6px 21px rgba(104, 130, 245, 0.67);
+    border-radius: 90px;
+    color: #fff;
+    text-transform: uppercase;
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.125em;
-    text-transform: uppercase;
+ 
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
+.menu_border-top {
+    border-top: 2px solid #E4E5EC;
+    margin-top: 19px;
+    padding-top: 15px;
+}
 
+.menu__link {
+    text-decoration: none;
+    color: #243976;
+}
 
+.menu__img-login:before {
+    content: url("../img/log-in.png");
+    margin-right: 10px;  
+}
+
+.menu__items_autorisation {
+    display: flex;
+}
+
+.page {
+    margin-top: 45px;
+
+}
+
+.page-links {
+    width: 420px;
+    
+}
+
+.page-links__link {
+    width: 130px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 30px;
+    background: linear-gradient(26.5deg, #4271DF 16.72%, #789CF1 95.45%);
+border-radius: 15px;
+font-size: 12px;
+    font-weight: 700;
+    line-height: 118.2%;
+}
+
+.page-links__pink_margin-left {
+    margin-left: 15px;
+}
