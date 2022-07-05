@@ -171,7 +171,32 @@ font-size: 12px;
 .offers-img {
     width: 673px;
     height: 400px;
+}
 
+.offers-main__offer {
+    width: 173px;
+    text-align: center;
+}
+
+.offers-main__image-offer {
+    width: 71px;
+}
+
+.offers-main__title-offer {
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.title-main{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    color: #243976;
+}
+
+.title-main_first-mod {
+    margin: 60px 0;
 }
 
 /* Hovers */
@@ -182,5 +207,4 @@ font-size: 12px;
     background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
     border-radius: 25px;
     transition: all 0.1s ease;
-
 }
